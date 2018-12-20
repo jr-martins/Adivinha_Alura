@@ -18,20 +18,9 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="353dp"
-        android:layout_height="74dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="83dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="81dp"
-        tools:text="@string/botao_jogar" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/resultadoId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -41,4 +30,13 @@
         android:textSize="@dimen/cabecalho_texto"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/botaoJogarId"
+        android:layout_width="310dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:text="@string/botao_jogar" />
 </RelativeLayout>
